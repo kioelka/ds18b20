@@ -1,6 +1,9 @@
 #include "config.h"
 #include "indicator.h"
 
+#define DS_OFF_PWR      SENSOR_PWR_GPIO->BSRR = SENSOR_PWR_PIN << 16
+#define DS_ON_PWR       SENSOR_PWR_GPIO->BSRR = SENSOR_PWR_PIN
+
 uint8_t ds_read_byte(void);
 void ds_write_byte(uint8_t);
 uint8_t ds_read_bit(void);

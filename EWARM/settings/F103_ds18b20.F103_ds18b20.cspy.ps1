@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "D:\Program Files\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "C:\Android\F103_ds18b20\EWARM\settings\F103_ds18b20.F103_ds18b20.general.xcl" --backend -f "C:\Android\F103_ds18b20\EWARM\settings\F103_ds18b20.F103_ds18b20.driver.xcl" 
+& "D:\Program Files\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "C:\Android\ds18b20\EWARM\settings\F103_ds18b20.F103_ds18b20.general.xcl" --backend -f "C:\Android\ds18b20\EWARM\settings\F103_ds18b20.F103_ds18b20.driver.xcl" 
 }
 else
 {
-& "D:\Program Files\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "C:\Android\F103_ds18b20\EWARM\settings\F103_ds18b20.F103_ds18b20.general.xcl" --debug_file=$debugfile --backend -f "C:\Android\F103_ds18b20\EWARM\settings\F103_ds18b20.F103_ds18b20.driver.xcl" 
+& "D:\Program Files\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "C:\Android\ds18b20\EWARM\settings\F103_ds18b20.F103_ds18b20.general.xcl" --debug_file=$debugfile --backend -f "C:\Android\ds18b20\EWARM\settings\F103_ds18b20.F103_ds18b20.driver.xcl" 
 }

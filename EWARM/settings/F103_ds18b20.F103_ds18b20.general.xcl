@@ -2,7 +2,7 @@
 
 "D:\Program Files\IAR Systems\Embedded Workbench 8.4\arm\bin\armstlink2.dll" 
 
-"C:\Android\F103_ds18b20\EWARM\F103_ds18b20\Exe\F103_ds18b20.out" 
+"C:\Android\ds18b20\EWARM\F103_ds18b20\Exe\F103_ds18b20.out" 
 
 --plugin="D:\Program Files\IAR Systems\Embedded Workbench 8.4\arm\bin\armbat.dll" 
 

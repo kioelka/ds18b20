@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"D:\Program Files\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "C:\Android\F103_ds18b20\EWARM\settings\F103_ds18b20.F103_ds18b20.general.xcl" --backend -f "C:\Android\F103_ds18b20\EWARM\settings\F103_ds18b20.F103_ds18b20.driver.xcl" 
+"D:\Program Files\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "C:\Android\ds18b20\EWARM\settings\F103_ds18b20.F103_ds18b20.general.xcl" --backend -f "C:\Android\ds18b20\EWARM\settings\F103_ds18b20.F103_ds18b20.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"D:\Program Files\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "C:\Android\F103_ds18b20\EWARM\settings\F103_ds18b20.F103_ds18b20.general.xcl" "--debug_file=%~1" --backend -f "C:\Android\F103_ds18b20\EWARM\settings\F103_ds18b20.F103_ds18b20.driver.xcl" 
+"D:\Program Files\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "C:\Android\ds18b20\EWARM\settings\F103_ds18b20.F103_ds18b20.general.xcl" "--debug_file=%~1" --backend -f "C:\Android\ds18b20\EWARM\settings\F103_ds18b20.F103_ds18b20.driver.xcl" 
 
 @echo off 
 :end

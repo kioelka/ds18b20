@@ -76,8 +76,8 @@ uint8_t ds_read_byte()
 
 void ds_IRQHandler(void)
     {
-       
-        //SENSOR_GPIO->CRL &= ~GPIO_CRL_CNF0_0;//PP
+        
+        DS_ON_PWR;//Включить питание
         
         ds_reset_pulse();          //послать импульс сброса                                       
         ds_write_byte(SKIP_ROM_ADR);//разрешить доступ к датчику не используя адрес
@@ -93,6 +93,7 @@ void ds_IRQHandler(void)
         for(int i=0; i<9; i++ )           //прочитать 9 байт в массив
             ds_buff[i] = ds_read_byte();
         
+        
         short *dt = (short*)ds_buff;
         short temp = 0;
         
@@ -102,12 +103,16 @@ void ds_IRQHandler(void)
 
         temp += ( *dt & 0x000F ) / 1.6f;
         
-        sprintf(indicator.value,"%3d",temp);
+        sprintf(indicator.value,"%3d",temp);//передать в индикатор
+        
+        
+        DS_OFF_PWR;//выключить питание
     }
 
 void Init_DS18b20()
     {
         RCC->APB2ENR |= RCC_APB2ENR_IOPAEN;//GPIOA clock
-        SENSOR_GPIO->CRL |= GPIO_CRL_MODE0_Msk | GPIO_CRL_CNF0_0; //GPIO 50 Mhz OD
-        SENSOR_GPIO->BSRR = SENSOR_PIN;
+        SENSOR_GPIO->CRL |= GPIO_CRL_MODE0_Msk | GPIO_CRL_CNF0_0 | //GPIO PA0 50 Mhz OD
+            GPIO_CRL_MODE1_Msk; // GPIO PA1 50MHz PP 
+        SENSOR_GPIO->BSRR = SENSOR_PIN | (SENSOR_PWR_PIN << 16);
     }

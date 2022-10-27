@@ -1,40 +1,39 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.50.9.278/W32 for ARM                  27/Oct/2022  13:15:31
+# IAR ELF Linker V8.50.9.278/W32 for ARM                  27/Oct/2022  14:08:24
 # Copyright 2007-2020 IAR Systems AB.
 #
-#    Output file  =
-#        C:\Android\F103_ds18b20\EWARM\F103_ds18b20\Exe\F103_ds18b20.out
+#    Output file  =  C:\Android\ds18b20\EWARM\F103_ds18b20\Exe\F103_ds18b20.out
 #    Map file     =
-#        C:\Android\F103_ds18b20\EWARM\F103_ds18b20\List\F103_ds18b20.map
+#        C:\Android\ds18b20\EWARM\F103_ds18b20\List\F103_ds18b20.map
 #    Command line =
-#        -f C:\Users\KELKA\AppData\Local\Temp\EW549B.tmp
-#        (C:\Android\F103_ds18b20\EWARM\F103_ds18b20\Obj\ds18sensor.o
-#        C:\Android\F103_ds18b20\EWARM\F103_ds18b20\Obj\indicator.o
-#        C:\Android\F103_ds18b20\EWARM\F103_ds18b20\Obj\init_mcu.o
-#        C:\Android\F103_ds18b20\EWARM\F103_ds18b20\Obj\main.o
-#        C:\Android\F103_ds18b20\EWARM\F103_ds18b20\Obj\startup_stm32f103xb.o
-#        C:\Android\F103_ds18b20\EWARM\F103_ds18b20\Obj\stm32f1xx_hal.o
-#        C:\Android\F103_ds18b20\EWARM\F103_ds18b20\Obj\stm32f1xx_hal_cortex.o
-#        C:\Android\F103_ds18b20\EWARM\F103_ds18b20\Obj\stm32f1xx_hal_dma.o
-#        C:\Android\F103_ds18b20\EWARM\F103_ds18b20\Obj\stm32f1xx_hal_exti.o
-#        C:\Android\F103_ds18b20\EWARM\F103_ds18b20\Obj\stm32f1xx_hal_flash.o
-#        C:\Android\F103_ds18b20\EWARM\F103_ds18b20\Obj\stm32f1xx_hal_flash_ex.o
-#        C:\Android\F103_ds18b20\EWARM\F103_ds18b20\Obj\stm32f1xx_hal_gpio.o
-#        C:\Android\F103_ds18b20\EWARM\F103_ds18b20\Obj\stm32f1xx_hal_gpio_ex.o
-#        C:\Android\F103_ds18b20\EWARM\F103_ds18b20\Obj\stm32f1xx_hal_msp.o
-#        C:\Android\F103_ds18b20\EWARM\F103_ds18b20\Obj\stm32f1xx_hal_pwr.o
-#        C:\Android\F103_ds18b20\EWARM\F103_ds18b20\Obj\stm32f1xx_hal_rcc.o
-#        C:\Android\F103_ds18b20\EWARM\F103_ds18b20\Obj\stm32f1xx_hal_rcc_ex.o
-#        C:\Android\F103_ds18b20\EWARM\F103_ds18b20\Obj\stm32f1xx_hal_tim.o
-#        C:\Android\F103_ds18b20\EWARM\F103_ds18b20\Obj\stm32f1xx_hal_tim_ex.o
-#        C:\Android\F103_ds18b20\EWARM\F103_ds18b20\Obj\stm32f1xx_it.o
-#        C:\Android\F103_ds18b20\EWARM\F103_ds18b20\Obj\system_stm32f1xx.o
+#        -f C:\Users\KELKA\AppData\Local\Temp\EWB6DA.tmp
+#        (C:\Android\ds18b20\EWARM\F103_ds18b20\Obj\ds18sensor.o
+#        C:\Android\ds18b20\EWARM\F103_ds18b20\Obj\indicator.o
+#        C:\Android\ds18b20\EWARM\F103_ds18b20\Obj\init_mcu.o
+#        C:\Android\ds18b20\EWARM\F103_ds18b20\Obj\main.o
+#        C:\Android\ds18b20\EWARM\F103_ds18b20\Obj\startup_stm32f103xb.o
+#        C:\Android\ds18b20\EWARM\F103_ds18b20\Obj\stm32f1xx_hal.o
+#        C:\Android\ds18b20\EWARM\F103_ds18b20\Obj\stm32f1xx_hal_cortex.o
+#        C:\Android\ds18b20\EWARM\F103_ds18b20\Obj\stm32f1xx_hal_dma.o
+#        C:\Android\ds18b20\EWARM\F103_ds18b20\Obj\stm32f1xx_hal_exti.o
+#        C:\Android\ds18b20\EWARM\F103_ds18b20\Obj\stm32f1xx_hal_flash.o
+#        C:\Android\ds18b20\EWARM\F103_ds18b20\Obj\stm32f1xx_hal_flash_ex.o
+#        C:\Android\ds18b20\EWARM\F103_ds18b20\Obj\stm32f1xx_hal_gpio.o
+#        C:\Android\ds18b20\EWARM\F103_ds18b20\Obj\stm32f1xx_hal_gpio_ex.o
+#        C:\Android\ds18b20\EWARM\F103_ds18b20\Obj\stm32f1xx_hal_msp.o
+#        C:\Android\ds18b20\EWARM\F103_ds18b20\Obj\stm32f1xx_hal_pwr.o
+#        C:\Android\ds18b20\EWARM\F103_ds18b20\Obj\stm32f1xx_hal_rcc.o
+#        C:\Android\ds18b20\EWARM\F103_ds18b20\Obj\stm32f1xx_hal_rcc_ex.o
+#        C:\Android\ds18b20\EWARM\F103_ds18b20\Obj\stm32f1xx_hal_tim.o
+#        C:\Android\ds18b20\EWARM\F103_ds18b20\Obj\stm32f1xx_hal_tim_ex.o
+#        C:\Android\ds18b20\EWARM\F103_ds18b20\Obj\stm32f1xx_it.o
+#        C:\Android\ds18b20\EWARM\F103_ds18b20\Obj\system_stm32f1xx.o
 #        --no_out_extension -o
-#        C:\Android\F103_ds18b20\EWARM\F103_ds18b20\Exe\F103_ds18b20.out
-#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
-#        --map C:\Android\F103_ds18b20\EWARM\F103_ds18b20\List\F103_ds18b20.map
-#        --config "D:\Program Files\IAR Systems\Embedded Workbench
+#        C:\Android\ds18b20\EWARM\F103_ds18b20\Exe\F103_ds18b20.out --redirect
+#        _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb --map
+#        C:\Android\ds18b20\EWARM\F103_ds18b20\List\F103_ds18b20.map --config
+#        "D:\Program Files\IAR Systems\Embedded Workbench
 #        8.4\arm\config\linker\ST\stm32f103x8.icf" --semihosting --entry
 #        __iar_program_start --vfe --text_out locale)
 #
@@ -77,7 +76,7 @@ initialize by copy { rw };
   .intvec            ro code   0x800'0000    0xec  startup_stm32f103xb.o [1]
                              - 0x800'00ec    0xec
 
-"P1":                                      0x2d60
+"P1":                                      0x2d74
   .text              ro code   0x800'00ec   0xfa6  xprintffull_nomb.o [2]
   .text              ro code   0x800'1092     0xa  xsprout.o [2]
   .text              ro code   0x800'109c    0x16  strchr.o [4]
@@ -107,44 +106,39 @@ initialize by copy { rw };
   .text              ro code   0x800'2310     0xc  stm32f1xx_hal.o [1]
   .text              ro code   0x800'231c    0x48  stm32f1xx_hal.o [1]
   .text              ro code   0x800'2364    0xb4  stm32f1xx_hal_cortex.o [1]
-  .text              ro code   0x800'2418   0x1a4  ds18sensor.o [1]
-  .text              ro code   0x800'25bc    0x24  S32ToFlt.o [3]
-  .text              ro code   0x800'25e0    0xfc  FltDiv.o [3]
-  .text              ro code   0x800'26dc    0xe2  FltAdd.o [3]
-  .text              ro code   0x800'27c0    0x2a  FltToS32.o [3]
-  .text              ro code   0x800'27ec    0x40  sprintf.o [2]
-  .text              ro code   0x800'282c    0x74  FltSub.o [3]
-  .text              ro code   0x800'28a0   0x1a2  init_mcu.o [1]
-  .text              ro code   0x800'2a42    0x14  memset.o [4]
-  .text              ro code   0x800'2a58    0x9c  indicator.o [1]
-  .text              ro code   0x800'2af4    0x28  printf.o [2]
-  .text              ro code   0x800'2b1c    0x66  ABImemset.o [4]
-  .text              ro code   0x800'2b84    0x40  indicator.o [1]
-  .text              ro code   0x800'2bc4    0x38  packbits_init_single.o [4]
-  .text              ro code   0x800'2bfc    0x28  data_init.o [4]
-  .text              ro code   0x800'2c24    0x22  iarwrite.o [5]
-  .iar.init_table    const     0x800'2c48    0x10  - Linker created -
-  .text              ro code   0x800'2c58    0x20  putchar.o [2]
-  .text              ro code   0x800'2c78    0x10  write.o [5]
-  .text              ro code   0x800'2c88    0x1e  dwrite.o [5]
-  .text              ro code   0x800'2ca6    0x20  iarwstd.o [5]
-  .text              ro code   0x800'2cc8    0x1e  cmain.o [4]
-  .text              ro code   0x800'2ce6     0x4  low_level_init.o [2]
-  .text              ro code   0x800'2cea    0x18  main.o [1]
-  .text              ro code   0x800'2d02     0x4  exit.o [2]
-  .text              ro code   0x800'2d08     0xa  cexit.o [4]
-  .text              ro code   0x800'2d14    0x1c  cstartup_M.o [4]
-  .text              ro code   0x800'2d30    0x16  xprout.o [2]
-  .text              ro code   0x800'2d46    0x14  stm32f1xx_it.o [1]
-  .text              ro code   0x800'2d5c    0x10  stm32f1xx_hal.o [1]
-  .text              ro code   0x800'2d6c    0x14  system_stm32f1xx.o [1]
-  .text              ro code   0x800'2d80    0x10  startup_stm32f103xb.o [1]
-  .rodata            const     0x800'2d90     0x8  xprintffull_nomb.o [2]
-  .text              ro code   0x800'2d98     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2d9c     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2da0     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2da4     0x4  startup_stm32f103xb.o [1]
-  .text              ro code   0x800'2da8     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'2418   0x1b8  ds18sensor.o [1]
+  .text              ro code   0x800'25d0    0x24  S32ToFlt.o [3]
+  .text              ro code   0x800'25f4    0xfc  FltDiv.o [3]
+  .text              ro code   0x800'26f0    0xe2  FltAdd.o [3]
+  .text              ro code   0x800'27d4    0x2a  FltToS32.o [3]
+  .text              ro code   0x800'2800    0x40  sprintf.o [2]
+  .text              ro code   0x800'2840    0x74  FltSub.o [3]
+  .text              ro code   0x800'28b4   0x1a2  init_mcu.o [1]
+  .text              ro code   0x800'2a56    0x14  memset.o [4]
+  .text              ro code   0x800'2a6c    0x9c  indicator.o [1]
+  .text              ro code   0x800'2b08    0x28  printf.o [2]
+  .text              ro code   0x800'2b30    0x66  ABImemset.o [4]
+  .text              ro code   0x800'2b98    0x40  indicator.o [1]
+  .text              ro code   0x800'2bd8    0x38  packbits_init_single.o [4]
+  .text              ro code   0x800'2c10    0x28  data_init.o [4]
+  .text              ro code   0x800'2c38    0x22  iarwrite.o [5]
+  .iar.init_table    const     0x800'2c5c    0x10  - Linker created -
+  .text              ro code   0x800'2c6c    0x20  putchar.o [2]
+  .text              ro code   0x800'2c8c    0x10  write.o [5]
+  .text              ro code   0x800'2c9c    0x1e  dwrite.o [5]
+  .text              ro code   0x800'2cba    0x20  iarwstd.o [5]
+  .text              ro code   0x800'2cdc    0x1e  cmain.o [4]
+  .text              ro code   0x800'2cfa     0x4  low_level_init.o [2]
+  .text              ro code   0x800'2cfe    0x18  main.o [1]
+  .text              ro code   0x800'2d16     0x4  exit.o [2]
+  .text              ro code   0x800'2d1c     0xa  cexit.o [4]
+  .text              ro code   0x800'2d28    0x1c  cstartup_M.o [4]
+  .text              ro code   0x800'2d44    0x16  xprout.o [2]
+  .text              ro code   0x800'2d5a    0x14  stm32f1xx_it.o [1]
+  .text              ro code   0x800'2d70    0x10  stm32f1xx_hal.o [1]
+  .text              ro code   0x800'2d80    0x14  system_stm32f1xx.o [1]
+  .text              ro code   0x800'2d94    0x10  startup_stm32f103xb.o [1]
+  .rodata            const     0x800'2da4     0x8  xprintffull_nomb.o [2]
   .text              ro code   0x800'2dac     0x4  startup_stm32f103xb.o [1]
   .text              ro code   0x800'2db0     0x4  startup_stm32f103xb.o [1]
   .text              ro code   0x800'2db4     0x4  startup_stm32f103xb.o [1]
@@ -181,9 +175,14 @@ initialize by copy { rw };
   .text              ro code   0x800'2e30     0x4  startup_stm32f103xb.o [1]
   .text              ro code   0x800'2e34     0x4  startup_stm32f103xb.o [1]
   .text              ro code   0x800'2e38     0x4  startup_stm32f103xb.o [1]
-  .rodata            const     0x800'2e3c     0x0  packbits_init_single.o [4]
-  Initializer bytes  const     0x800'2e3c    0x10  <for P2-1>
-                             - 0x800'2e4c  0x2d60
+  .text              ro code   0x800'2e3c     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'2e40     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'2e44     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'2e48     0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'2e4c     0x4  startup_stm32f103xb.o [1]
+  .rodata            const     0x800'2e50     0x0  packbits_init_single.o [4]
+  Initializer bytes  const     0x800'2e50    0x10  <for P2-1>
+                             - 0x800'2e60  0x2d74
 
 "P2", part 1 of 2:                           0x29
   P2-1                        0x2000'0000    0x29  <Init block>
@@ -204,7 +203,7 @@ Unused ranges:
 
          From           To    Size
          ----           --    ----
-   0x800'2e4c   0x800'ffff  0xd1b4
+   0x800'2e60   0x800'ffff  0xd1a0
   0x2000'0029  0x2000'002f     0x7
   0x2000'0830  0x2000'4fff  0x47d0
 
@@ -217,7 +216,7 @@ Unused ranges:
           -------      ----
 Copy/packbits (__iar_packbits_init_single3)
     1 source range, total size 0x10 (39% of destination):
-           0x800'2e3c  0x10
+           0x800'2e50  0x10
     1 destination range, total size 0x29:
           0x2000'0000  0x29
 
@@ -233,8 +232,8 @@ command line/config:
     -------------------------------------------------
     Total:
 
-C:\Android\F103_ds18b20\EWARM\F103_ds18b20\Obj: [1]
-    ds18sensor.o                420
+C:\Android\ds18b20\EWARM\F103_ds18b20\Obj: [1]
+    ds18sensor.o                440
     indicator.o                 220        5       12
     init_mcu.o                  418
     main.o                       24
@@ -245,7 +244,7 @@ C:\Android\F103_ds18b20\EWARM\F103_ds18b20\Obj: [1]
     stm32f1xx_it.o               20
     system_stm32f1xx.o           20        2        4
     -------------------------------------------------
-    Total:                    3'080       11       28
+    Total:                    3'100       11       28
 
 dl7M_tln.a: [2]
     XShttio.o                    60        4        9
@@ -313,7 +312,7 @@ shb_l.a: [5]
     Gaps                         48        2
     Linker created                        16    2'048
 -----------------------------------------------------
-    Grand Total:             11'810       42    2'089
+    Grand Total:             11'830       42    2'089
 
 
 *******************************************************************************
@@ -322,18 +321,18 @@ shb_l.a: [5]
 
 Entry                       Address   Size  Type      Object
 -----                       -------   ----  ----      ------
-.iar.init_table$$Base    0x800'2c48          --   Gb  - Linker created -
-.iar.init_table$$Limit   0x800'2c58          --   Gb  - Linker created -
-?main                    0x800'2cc9         Code  Gb  cmain.o [4]
-AHBPrescTable            0x800'2d70   0x10  Data  Gb  system_stm32f1xx.o [1]
-BusFault_Handler         0x800'2d4d    0x2  Code  Gb  stm32f1xx_it.o [1]
+.iar.init_table$$Base    0x800'2c5c          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'2c6c          --   Gb  - Linker created -
+?main                    0x800'2cdd         Code  Gb  cmain.o [4]
+AHBPrescTable            0x800'2d84   0x10  Data  Gb  system_stm32f1xx.o [1]
+BusFault_Handler         0x800'2d61    0x2  Code  Gb  stm32f1xx_it.o [1]
 CSTACK$$Base            0x2000'0030          --   Gb  - Linker created -
 CSTACK$$Limit           0x2000'0830          --   Gb  - Linker created -
-DebugMon_Handler         0x800'2d53    0x2  Code  Gb  stm32f1xx_it.o [1]
-Draw_Digit               0x800'2a99   0x34  Code  Gb  indicator.o [1]
-Error_Handler            0x800'2a39    0xa  Code  Gb  init_mcu.o [1]
+DebugMon_Handler         0x800'2d67    0x2  Code  Gb  stm32f1xx_it.o [1]
+Draw_Digit               0x800'2aad   0x34  Code  Gb  indicator.o [1]
+Error_Handler            0x800'2a4d    0xa  Code  Gb  init_mcu.o [1]
 HAL_GetTick              0x800'2311    0xc  Code  Wk  stm32f1xx_hal.o [1]
-HAL_IncTick              0x800'2d5d   0x10  Code  Wk  stm32f1xx_hal.o [1]
+HAL_IncTick              0x800'2d71   0x10  Code  Wk  stm32f1xx_hal.o [1]
 HAL_InitTick             0x800'231d   0x48  Code  Wk  stm32f1xx_hal.o [1]
 HAL_NVIC_SetPriority     0x800'23e7   0x1e  Code  Gb  stm32f1xx_hal_cortex.o [1]
 HAL_RCC_ClockConfig      0x800'2159  0x11a  Code  Gb  stm32f1xx_hal_rcc.o [1]
@@ -345,42 +344,42 @@ HAL_RCC_GetSysClockFreq::aPredivFactorTable
                          0x800'230c    0x2  Data  Lc  stm32f1xx_hal_rcc.o [1]
 HAL_RCC_OscConfig        0x800'1e21  0x338  Code  Gb  stm32f1xx_hal_rcc.o [1]
 HAL_SYSTICK_Config       0x800'2405    0x2  Code  Gb  stm32f1xx_hal_cortex.o [1]
-HardFault_Handler        0x800'2d49    0x2  Code  Gb  stm32f1xx_it.o [1]
-Indicator_IRQHandler     0x800'2add    0xc  Code  Gb  indicator.o [1]
-Init_DS18b20             0x800'2585   0x1a  Code  Gb  ds18sensor.o [1]
-Init_Indicator           0x800'2a59   0x40  Code  Gb  indicator.o [1]
-Init_MCU                 0x800'29b9   0x2e  Code  Gb  init_mcu.o [1]
-MemManage_Handler        0x800'2d4b    0x2  Code  Gb  stm32f1xx_it.o [1]
-NMI_Handler              0x800'2d47    0x2  Code  Gb  stm32f1xx_it.o [1]
+HardFault_Handler        0x800'2d5d    0x2  Code  Gb  stm32f1xx_it.o [1]
+Indicator_IRQHandler     0x800'2af1    0xc  Code  Gb  indicator.o [1]
+Init_DS18b20             0x800'2591   0x1a  Code  Gb  ds18sensor.o [1]
+Init_Indicator           0x800'2a6d   0x40  Code  Gb  indicator.o [1]
+Init_MCU                 0x800'29cd   0x2e  Code  Gb  init_mcu.o [1]
+MemManage_Handler        0x800'2d5f    0x2  Code  Gb  stm32f1xx_it.o [1]
+NMI_Handler              0x800'2d5b    0x2  Code  Gb  stm32f1xx_it.o [1]
 NVIC_EncodePriority      0x800'2389   0x36  Code  Lc  stm32f1xx_hal_cortex.o [1]
-PendSV_Handler           0x800'2d55    0x2  Code  Gb  stm32f1xx_it.o [1]
+PendSV_Handler           0x800'2d69    0x2  Code  Gb  stm32f1xx_it.o [1]
 RCC_Delay                0x800'22ab   0x24  Code  Lc  stm32f1xx_hal_rcc.o [1]
-Region$$Table$$Base      0x800'2c48          --   Gb  - Linker created -
-Region$$Table$$Limit     0x800'2c58          --   Gb  - Linker created -
-SVC_Handler              0x800'2d51    0x2  Code  Gb  stm32f1xx_it.o [1]
-Shift_Digit              0x800'2b85   0x40  Code  Gb  indicator.o [1]
+Region$$Table$$Base      0x800'2c5c          --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'2c6c          --   Gb  - Linker created -
+SVC_Handler              0x800'2d65    0x2  Code  Gb  stm32f1xx_it.o [1]
+Shift_Digit              0x800'2b99   0x40  Code  Gb  indicator.o [1]
 SysTick_Config           0x800'23bf   0x28  Code  Lc  stm32f1xx_hal_cortex.o [1]
-SysTick_Handler          0x800'2d57    0x4  Code  Gb  stm32f1xx_it.o [1]
-SystemClock_Config       0x800'28eb   0x6e  Code  Gb  init_mcu.o [1]
+SysTick_Handler          0x800'2d6b    0x4  Code  Gb  stm32f1xx_it.o [1]
+SystemClock_Config       0x800'28ff   0x6e  Code  Gb  init_mcu.o [1]
 SystemCoreClock         0x2000'000c    0x4  Data  Gb  system_stm32f1xx.o [1]
-SystemInit               0x800'2d6d    0x2  Code  Gb  system_stm32f1xx.o [1]
-TIM3_IRQHandler          0x800'29e7    0xe  Code  Gb  init_mcu.o [1]
-TIM4_IRQHandler          0x800'29f5    0xe  Code  Gb  init_mcu.o [1]
-TIM_Init                 0x800'2959   0x60  Code  Gb  init_mcu.o [1]
-UsageFault_Handler       0x800'2d4f    0x2  Code  Gb  stm32f1xx_it.o [1]
+SystemInit               0x800'2d81    0x2  Code  Gb  system_stm32f1xx.o [1]
+TIM3_IRQHandler          0x800'29fb    0xe  Code  Gb  init_mcu.o [1]
+TIM4_IRQHandler          0x800'2a09    0xe  Code  Gb  init_mcu.o [1]
+TIM_Init                 0x800'296d   0x60  Code  Gb  init_mcu.o [1]
+UsageFault_Handler       0x800'2d63    0x2  Code  Gb  stm32f1xx_it.o [1]
 _LitobFullNoMb           0x800'0e8d  0x10a  Code  Lc  xprintffull_nomb.o [2]
 _PrintfFullNoMb          0x800'00ed  0xd7c  Code  Gb  xprintffull_nomb.o [2]
-_Prout                   0x800'2d31   0x16  Code  Gb  xprout.o [2]
+_Prout                   0x800'2d45   0x16  Code  Gb  xprout.o [2]
 _PutcharFullNoMb         0x800'0ffd   0x20  Code  Lc  xprintffull_nomb.o [2]
 _PutcharsFullNoMb        0x800'101d   0x2e  Code  Lc  xprintffull_nomb.o [2]
 _SProut                  0x800'1093    0xa  Code  Gb  xsprout.o [2]
-__NVIC_EnableIRQ         0x800'28bb   0x16  Code  Lc  init_mcu.o [1]
+__NVIC_EnableIRQ         0x800'28cf   0x16  Code  Lc  init_mcu.o [1]
 __NVIC_GetPriorityGrouping
                          0x800'2365    0xa  Code  Lc  stm32f1xx_hal_cortex.o [1]
-__NVIC_SetPriority       0x800'28d1   0x1a  Code  Lc  init_mcu.o [1]
+__NVIC_SetPriority       0x800'28e5   0x1a  Code  Lc  init_mcu.o [1]
 __NVIC_SetPriority       0x800'236f   0x1a  Code  Lc  stm32f1xx_hal_cortex.o [1]
 __NVIC_SetPriorityGrouping
-                         0x800'28a1   0x1a  Code  Lc  init_mcu.o [1]
+                         0x800'28b5   0x1a  Code  Lc  init_mcu.o [1]
 __aeabi_cdcmple          0x800'129d         Code  Gb  DblCmpLe.o [3]
 __aeabi_cdrcmple         0x800'12cd         Code  Gb  DblCmpGe.o [3]
 __aeabi_d2iz             0x800'1439         Code  Gb  DblToS32.o [3]
@@ -388,84 +387,84 @@ __aeabi_d2uiz            0x800'17c5         Code  Gb  DblToU32.o [3]
 __aeabi_ddiv             0x800'157d         Code  Gb  DblDiv.o [3]
 __aeabi_dmul             0x800'1809         Code  Gb  DblMul.o [3]
 __aeabi_dsub             0x800'1499         Code  Gb  DblSub.o [3]
-__aeabi_f2iz             0x800'27c1         Code  Gb  FltToS32.o [3]
-__aeabi_fadd             0x800'26dd         Code  Gb  FltAdd.o [3]
-__aeabi_fdiv             0x800'25e1         Code  Gb  FltDiv.o [3]
+__aeabi_f2iz             0x800'27d5         Code  Gb  FltToS32.o [3]
+__aeabi_fadd             0x800'26f1         Code  Gb  FltAdd.o [3]
+__aeabi_fdiv             0x800'25f5         Code  Gb  FltDiv.o [3]
 __aeabi_i2d              0x800'1475         Code  Gb  S32ToDbl.o [3]
-__aeabi_i2f              0x800'25bd         Code  Gb  S32ToFlt.o [3]
+__aeabi_i2f              0x800'25d1         Code  Gb  S32ToFlt.o [3]
 __aeabi_ldiv0            0x800'1d51         Code  Gb  I64DivZer.o [4]
 __aeabi_memcpy           0x800'1185         Code  Gb  ABImemcpy.o [4]
 __aeabi_memcpy4          0x800'11a5         Code  Gb  ABImemcpy.o [4]
 __aeabi_memcpy8          0x800'11a5         Code  Gb  ABImemcpy.o [4]
-__aeabi_memset           0x800'2b1d         Code  Gb  ABImemset.o [4]
+__aeabi_memset           0x800'2b31         Code  Gb  ABImemset.o [4]
 __aeabi_ui2d             0x800'17ed         Code  Gb  U32ToDbl.o [3]
 __aeabi_uldivmod         0x800'19ad         Code  Gb  I64DivMod.o [4]
-__cmain                  0x800'2cc9         Code  Gb  cmain.o [4]
-__dwrite                 0x800'2c89   0x1e  Code  Gb  dwrite.o [5]
+__cmain                  0x800'2cdd         Code  Gb  cmain.o [4]
+__dwrite                 0x800'2c9d   0x1e  Code  Gb  dwrite.o [5]
 __exit                   0x800'1d55   0x14  Code  Gb  exit.o [5]
 __iar_Fail_s             0x800'10b5   0x1c  Code  Gb  xfail_s.o [2]
 __iar_Memchr             0x800'112d         Code  Gb  memchr.o [4]
-__iar_Memset             0x800'2b1d         Code  Gb  ABImemset.o [4]
-__iar_Memset_word        0x800'2b25         Code  Gb  ABImemset.o [4]
+__iar_Memset             0x800'2b31         Code  Gb  ABImemset.o [4]
+__iar_Memset_word        0x800'2b39         Code  Gb  ABImemset.o [4]
 __iar_Strchr             0x800'109d         Code  Gb  strchr.o [4]
 __iar_close_ttio         0x800'1d69   0x2c  Code  Gb  iarttio.o [5]
 __iar_dadd               0x800'14a9         Code  Gb  DblSub.o [3]
-__iar_data_init3         0x800'2bfd   0x28  Code  Gb  data_init.o [4]
+__iar_data_init3         0x800'2c11   0x28  Code  Gb  data_init.o [4]
 __iar_dsub               0x800'1be5         Code  Gb  DblAdd.o [3]
 __iar_dsubStart          0x800'1bf7         Code  Gb  DblAdd.o [3]
-__iar_fadd               0x800'282d         Code  Gb  FltSub.o [3]
+__iar_fadd               0x800'2841         Code  Gb  FltSub.o [3]
 __iar_frexp              0x800'1239         Code  Gb  frexp.o [3]
 __iar_frexp64            0x800'122d         Code  Gb  frexp.o [3]
 __iar_frexpl             0x800'1239         Code  Gb  frexp.o [3]
-__iar_fsub               0x800'26e9         Code  Gb  FltAdd.o [3]
-__iar_fsubStart          0x800'26f9         Code  Gb  FltAdd.o [3]
+__iar_fsub               0x800'26fd         Code  Gb  FltAdd.o [3]
+__iar_fsubStart          0x800'270d         Code  Gb  FltAdd.o [3]
 __iar_get_ttio           0x800'1d95   0x4c  Code  Gb  iarttio.o [5]
 __iar_ldexp64            0x800'12fd         Code  Gb  ldexp.o [3]
 __iar_lookup_ttioh       0x800'1e13    0x4  Code  Gb  XShttio.o [2]
 __iar_packbits_init_single3
-                         0x800'2bc5   0x38  Code  Gb  packbits_init_single.o [4]
-__iar_program_start      0x800'2d15         Code  Gb  cstartup_M.o [4]
+                         0x800'2bd9   0x38  Code  Gb  packbits_init_single.o [4]
+__iar_program_start      0x800'2d29         Code  Gb  cstartup_M.o [4]
 __iar_scalbln64          0x800'12fd         Code  Gb  ldexp.o [3]
 __iar_scalbn64           0x800'12fd         Code  Gb  ldexp.o [3]
-__iar_sh_stdout          0x800'2ca7   0x20  Code  Gb  iarwstd.o [5]
-__iar_sh_write           0x800'2c25   0x22  Code  Gb  iarwrite.o [5]
+__iar_sh_stdout          0x800'2cbb   0x20  Code  Gb  iarwstd.o [5]
+__iar_sh_write           0x800'2c39   0x22  Code  Gb  iarwrite.o [5]
 __iar_ttio_guard_lock    0x800'1de5   0x1e  Code  Gb  XShttio.o [2]
 __iar_ttio_guard_unlock
                          0x800'1e03   0x10  Code  Gb  XShttio.o [2]
 __iar_ttio_handles      0x2000'0010    0x8  Data  Lc  XShttio.o [2]
-__low_level_init         0x800'2ce7    0x4  Code  Gb  low_level_init.o [2]
+__low_level_init         0x800'2cfb    0x4  Code  Gb  low_level_init.o [2]
 __vector_table           0x800'0000         Data  Gb  startup_stm32f103xb.o [1]
-__write                  0x800'2c79   0x10  Code  Gb  write.o [5]
-_call_main               0x800'2cd5         Code  Gb  cmain.o [4]
-_exit                    0x800'2d09         Code  Gb  cexit.o [4]
-_main                    0x800'2cdf         Code  Gb  cmain.o [4]
+__write                  0x800'2c8d   0x10  Code  Gb  write.o [5]
+_call_main               0x800'2ce9         Code  Gb  cmain.o [4]
+_exit                    0x800'2d1d         Code  Gb  cexit.o [4]
+_main                    0x800'2cf3         Code  Gb  cmain.o [4]
 abort                    0x800'1bdd    0x6  Code  Gb  abort.o [2]
-buf                      0x800'2ae8    0xc  Data  Gb  indicator.o [1]
+buf                      0x800'2afc    0xc  Data  Gb  indicator.o [1]
 delay_us                 0x800'2419    0xa  Code  Lc  ds18sensor.o [1]
-ds_IRQHandler            0x800'2509   0x7c  Code  Gb  ds18sensor.o [1]
+ds_IRQHandler            0x800'2509   0x88  Code  Gb  ds18sensor.o [1]
 ds_read_bit              0x800'2495   0x30  Code  Gb  ds18sensor.o [1]
 ds_read_byte             0x800'24e3   0x26  Code  Gb  ds18sensor.o [1]
 ds_reset_pulse           0x800'2423   0x42  Code  Gb  ds18sensor.o [1]
 ds_write_bit             0x800'2465   0x30  Code  Gb  ds18sensor.o [1]
 ds_write_byte            0x800'24c5   0x1e  Code  Gb  ds18sensor.o [1]
-exit                     0x800'2d03    0x4  Code  Gb  exit.o [2]
+exit                     0x800'2d17    0x4  Code  Gb  exit.o [2]
 frexp                    0x800'122d         Code  Gb  frexp.o [3]
 frexpl                   0x800'122d         Code  Gb  frexp.o [3]
 indicator               0x2000'0018    0xc  Data  Gb  indicator.o [1]
 ldexp                    0x800'12fd         Code  Gb  ldexp.o [3]
 ldexpl                   0x800'12fd         Code  Gb  ldexp.o [3]
-main                     0x800'2ceb   0x18  Code  Gb  main.o [1]
+main                     0x800'2cff   0x18  Code  Gb  main.o [1]
 memchr                   0x800'112d         Code  Gb  memchr.o [4]
-memset                   0x800'2a43   0x14  Code  Gb  memset.o [4]
-printf                   0x800'2af5   0x28  Code  Gb  printf.o [2]
-putchar                  0x800'2c59   0x20  Code  Gb  putchar.o [2]
+memset                   0x800'2a57   0x14  Code  Gb  memset.o [4]
+printf                   0x800'2b09   0x28  Code  Gb  printf.o [2]
+putchar                  0x800'2c6d   0x20  Code  Gb  putchar.o [2]
 scalbln                  0x800'12fd         Code  Gb  ldexp.o [3]
 scalblnl                 0x800'12fd         Code  Gb  ldexp.o [3]
 scalbn                   0x800'12fd         Code  Gb  ldexp.o [3]
 scalbnl                  0x800'12fd         Code  Gb  ldexp.o [3]
 scale                    0x800'0f97   0x46  Code  Lc  xprintffull_nomb.o [2]
 sec_hand                0x2000'0024    0x4  Data  Lc  xfail_s.o [2]
-sprintf                  0x800'27ed   0x40  Code  Gb  sprintf.o [2]
+sprintf                  0x800'2801   0x40  Code  Gb  sprintf.o [2]
 strchr                   0x800'109d         Code  Gb  strchr.o [4]
 strlen                   0x800'10f5         Code  Gb  strlen.o [4]
 ttio_guard              0x2000'0028    0x1  Data  Lc  XShttio.o [2]
@@ -474,13 +473,13 @@ uwTickFreq              0x2000'0000    0x1  Data  Gb  stm32f1xx_hal.o [1]
 uwTickPrio              0x2000'0008    0x4  Data  Gb  stm32f1xx_hal.o [1]
 
 
-[1] = C:\Android\F103_ds18b20\EWARM\F103_ds18b20\Obj
+[1] = C:\Android\ds18b20\EWARM\F103_ds18b20\Obj
 [2] = dl7M_tln.a
 [3] = m7M_tl.a
 [4] = rt7M_tl.a
 [5] = shb_l.a
 
-  11'810 bytes of readonly  code memory
+  11'830 bytes of readonly  code memory
       42 bytes of readonly  data memory
    2'089 bytes of readwrite data memory
 
